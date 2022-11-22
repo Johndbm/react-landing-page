@@ -2,42 +2,16 @@ import React from "react";
 
 const Jumbotron = () => {
 	return (
-        <div className="body bg-white">
-            <div className="container-fluid d-flexbox">
-                <div className="row justify-content-center">
-                    <div className="col-12 d-flex align-items-center justify-content-center text-center text-capitalize">
-                        <img src="https://picsum.photos/200/300" className="w-100" alt="..." /> 
-                        <div className="row position-absolute w-100 px-4 mx-1 my-5">
-                            <div className="col-12 bg-white mt-3">
-                                <h1 className="display-1 fw-bolder">one page wonder</h1>
-                            </div>
-                            <div className="col-12 bg-white my-4">
-                                <h4 className="display-4 fw-bolder">knock your socks off</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div className="p-5 mb-4 bg-secondary bg-opacity-10 rounded-3">
+            <div className="container-fluid py-5">
+                <h1 className="display-5 fw-bold">A Warm Welcome!</h1>
+                <p className="col-md-8 fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nobis aliquid reprehenderit, dicta aperiam asperiores officiis laudantium, et fugiat non rem mollitia quod animi doloremque, magni excepturi dolore error! Nesciunt!</p>
+                <button className="btn btn-primary btn-lg" type="button">Example button</button>
             </div>
-        </div> 
+        </div>
 	);
 };
 
+export default Jumbotron;
 
-////////////// JUMBOTRON FRAGMENT        //////////
-//<div className="body bg-white">
-//    <div className="container-fluid d-flexbox">
-//        <div className="row justify-content-center">
-//            <div className="col-12 d-flex align-items-center justify-content-center text-center text-capitalize">
-//                <img src="https://picsum.photos/200/300" className="w-100" alt="..."> 
-//                <div className="row position-absolute w-100 px-4 mx-1 my-5">
-//                    <div className="col-12 bg-white mt-3">
-//                        <h1 className="display-1 fw-bolder">one page wonder</h1>
-//                    </div>
-//                    <div className="col-12 bg-white my-4">
-//                        <h4 className="display-4 fw-bolder">knock your socks off</h4>
-//                    </div>
-//                </div>
-//            </div>
-//        </div>
-//    </div>
-//</div> 
+
