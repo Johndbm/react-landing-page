@@ -6,7 +6,7 @@ const Jumbotron = () => {
             <div className="container-fluid py-5">
                 <h1 className="display-5 fw-bold">A Warm Welcome!</h1>
                 <p className="col-md-8 fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nobis aliquid reprehenderit, dicta aperiam asperiores officiis laudantium, et fugiat non rem mollitia quod animi doloremque, magni excepturi dolore error! Nesciunt!</p>
-                <button className="btn btn-primary btn-lg" type="button">Example button</button>
+                <button className="btn btn-primary btn-lg" type="button">Call to Action!</button>
             </div>
         </div>
 	);
